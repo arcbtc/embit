@@ -6,11 +6,8 @@ def main():
     #Extended public key string to an address, tested against https://iancoleman.io/bip39/
     #Mnemonic used: february deposit cram leopard ripple turtle impulse history accident noodle love crazy limit pond tourist 
 
-    #bip32, first address "1J4HrxMhH5oZo4HGhojswL3khFq5rPMwrA" 
-    key = "xpub68sDHFiM3GbvzgxvATb7NvTcQ9EJMa1vTCbtiUP8WPGGBA4H4PETLd95nPrwYMLYb4Ahyhptq1UYiKWZqCJwzuwjpxbxbhGJgZmgvWEgsMc"
-    
     #bip44, first address "124d7o3DmtXqvn1dJLxj9TQYA7v9Cmcyes" 
-    #key = "xpub6D2VGgnY7WJ8H3SKBPhqbarfA6uZbcUSLnuwgzE5qvmXyq23yNg42GKJgDXMJ27Q3NBeFjQDyz8Za27sYUfmWs7PNow8i3FUNwHufbyyWQK"
+    key = "xpub6D2VGgnY7WJ8H3SKBPhqbarfA6uZbcUSLnuwgzE5qvmXyq23yNg42GKJgDXMJ27Q3NBeFjQDyz8Za27sYUfmWs7PNow8i3FUNwHufbyyWQK"
     
     #bip49, first address "3CntmFG5nBG9sCCr2b6MWhTAk9RLEicERn" 
     #key = "ypub6YFkZihjEjQdftpu4NwwNobdTB7eRHQjcTjyDj4hhANcj3KqXVTQuEuz1rL49NtzFLCxvnSAd4gnCG1yfWdDv1evXSrMKZfCcYQ3yR6eyP2"
