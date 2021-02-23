@@ -3,7 +3,7 @@ from embit import bip32
 from embit import base58
 
 def main():    
-    #Extended public key to address, tested with https://iancoleman.io/bip39/
+    #Extended public key string to an address, tested against https://iancoleman.io/bip39/
     #Mnemonic used: february deposit cram leopard ripple turtle impulse history accident noodle love crazy limit pond tourist 
 
     #bip32, first address "1J4HrxMhH5oZo4HGhojswL3khFq5rPMwrA" 
