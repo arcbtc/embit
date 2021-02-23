@@ -27,7 +27,7 @@ def main():
     if key[0:4] == "zpub":
         address = script.p2wpkh(child).address()
     elif key[0:4] == "ypub":
-        address = script.p2wpkh(child).address()
+        address = script.p2sh(script.p2wpkh(child)).address()
 
     print(address)
 
